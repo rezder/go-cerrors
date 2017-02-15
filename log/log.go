@@ -62,9 +62,9 @@ func Printf(level int, format string, v ...interface{}) {
 //PrintErr log the err to os. standard error.
 func PrintErr(err error) {
 	if Level() != Debug {
-		log.Printf("Error: %v", err)
+		log.Output(dept, fmt.Sprintf("Error: %v", err))
 	} else {
-		log.Printf("Error %+v", err)
+		log.Output(dept, fmt.Sprintf("Error %+v", err))
 	}
 }
 

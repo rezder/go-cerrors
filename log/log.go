@@ -9,7 +9,7 @@ const (
 	//Min the least verbose log level and default level.
 	//More or less only errors and important warnings.
 	Min = 0
-	//Verbose is more verbose usefull for trouble shooting with source code.
+	//Verbose is more verbose usefull for informing a user.
 	Verbose = 1
 	//DebugMsg use for debugging messages flow.
 	DebugMsg = 2 //TODO change flag commont
